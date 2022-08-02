@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/180ac48f70.js" crossorigin="anonymous"></script>
+    <title>Facebit</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="../image/facebook.png" alt="logo">
+            <div class="button">
+                <button class="btn1" onclick="home()">
+                    Inicio
+                </button>
+                <button class="btn2" onclick="registrop()">
+                    Registrar
+                </button>
+            </div>
+        </header>
+        <section class="section-login">
+            <div class="forms-content" >
+                <form class="form card">
+                    <div class="card_header">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                            <path fill="none" d="M0 0h24v24H0z"></path>
+                            <path fill="currentColor"
+                                d="M4 15h2v5h12V4H6v5H4V3a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-6zm6-4V8l5 4-5 4v-3H2v-2h8z">
+                            </path>
+                            
+                        </svg>
+                        <h1 class="form_heading">Login</h1>
+                        
+                    </div>
+                    <div class="img">
+                            <img src="../image/facebook.png" alt="logo">
+                    </div>
+                    <div class="field">
+                        <label for="username">Email:</label>
+                        <input class="input" name="username" type="email" placeholder="@Email" id="email" required>
+                    </div>
+                    <div class="field">
+                        <label for="password">Password:</label>
+                        <input class="input" name="user_password" type="password" placeholder="Password" id="password" required>
+                    </div>
+                </form>
+                <button class="button" onclick="loginok()">Login</button>
+                <a href="./registro.html">Ainda não se cadastrou?</a>
+            </div>
+        </section>
+    </div>
+    <script src="../script/script.js"></script>
+</body>
+
+</html>

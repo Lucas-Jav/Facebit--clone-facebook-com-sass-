@@ -1,0 +1,147 @@
+
+div.container {
+    section.section-login {
+    height: 90vh;
+    width: 100vw;
+    background-color: $three-color;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    background-image: url(../image/sla.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    div.forms-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 25px;
+        width: 40%;
+        min-width: 250px;
+        max-width: 550px;
+        min-height: 550px;
+        max-height: 560px;
+        height: 54vh;
+        opacity: 0.9;
+        background: #F4F6FB;
+        border: 1px solid white;
+        border-radius: 20px;
+        box-shadow: 10px 10px 64px 0px rgb(68, 8, 8);
+        -webkit-box-shadow: 10px 10px 64px 0px rgba(105, 16, 16, 0.664);
+        -moz-box-shadow: 10px 10px 64px 0px rgba(82, 13, 13, 0.75);
+
+    form {
+
+        div.img {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            img {
+                width: 150px;
+                background-color: black;
+                border-radius: 50%;
+                border: 2px solid red;
+            }
+        }
+
+        div.card_header {
+            display: flex;
+            align-items: center;
+    
+            svg {
+                color: red;
+                margin-bottom: 20px;
+                margin-right: 5px;
+                opacity: 1;
+            }
+
+            h1.form_heading {
+                padding-bottom: 20px;
+                font-size: 21px;
+                color: red;
+        
+            }
+            img {
+                width: 50px;
+                border-radius: 50%;
+                border: 1px solid $thwo-color;
+                background-color: black;
+                opacity: 1;
+            }
+        }
+
+        div.field {
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 10px;
+
+            .input {
+                border-radius: 5px;
+                background-color: white;
+                padding: 5px;
+                width: 100%;
+                color: $thwo-color;
+                border: 1px solid $thwo-color;
+            }
+
+            .input:focus-visible {
+                outline: 1px solid red;
+            }
+            
+            .input::placeholder {
+                color: red;
+            }
+
+            label {
+                padding-top: 20px;
+                color: black;
+                font-size: 14px;
+                display: block;
+                padding-bottom: 4px;
+                    }
+                }
+            }
+            button {
+                height: 60px;
+                width: 100%;
+                background-color: $one-color;
+                margin-top: 10px;
+                font-size: 20px;
+                padding: 7px 12px;
+                font-weight: 500;
+                color: red;
+                border-radius: 10px;
+                cursor: pointer;
+                transition: 1s;
+
+                &:hover {
+                    background-color: white;
+                    border: 1px solid red;
+                    text-decoration:underline;
+                    
+                }
+            }
+        }
+    }
+
+    a {
+        color: $one-color;
+        cursor: pointer;
+        transition: 1s;
+
+        @media (max-width: 748px) {
+            font-size: 14px;
+        }
+
+        &:hover {
+            color: red;
+            text-decoration: underline;
+        }
+    }
+}
+
+
+
+

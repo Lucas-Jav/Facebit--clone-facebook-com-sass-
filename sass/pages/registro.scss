@@ -1,0 +1,72 @@
+section.section-registro {
+    height: 90vh;
+    width: 100vw;
+    background-color: $three-color;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    background-image: url(../image/sla.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    div.forms-content {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 25px;
+        width: 40%;
+        min-width: 250px;
+        max-width: 550px;
+        min-height: 600px;
+        max-height: 600px;
+        height: 70vh;
+        opacity: 0.9;
+        background: #F4F6FB;
+        border: 1px solid white;
+        border-radius: 20px;
+        box-shadow: 10px 10px 64px 0px rgb(68, 8, 8);
+        -webkit-box-shadow: 10px 10px 64px 0px rgba(105, 16, 16, 0.664);
+        -moz-box-shadow: 10px 10px 64px 0px rgba(82, 13, 13, 0.75);
+
+        h1 {
+            color: red;
+        }
+
+        h2 {
+            font-size: 20px;
+            text-decoration: underline;
+            text-decoration-color: red;
+        }
+
+        p {
+            font-size: 15px;
+            
+        }
+
+        table {
+            height: 20vh;
+            
+            thead {
+                tr {
+                    text-align: center;
+                    th {
+                        color: red;
+                        border: 1px solid red;
+                    }
+                }
+            }
+            tbody {
+                tr {
+                    text-align: center;
+                    td {
+                        font-size: 12px;
+                        color: black;
+                        border: 1px solid red;
+                    }
+                }
+            }
+        }
+    }
+}

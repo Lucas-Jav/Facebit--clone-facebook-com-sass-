@@ -1,0 +1,281 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container header {
+  box-shadow: 0px 0.2px 61.7px rgba(150, 2, 2, 0.589), 0px 0.3px 67.5px rgba(228, 225, 225, 0.212), 0px 0.6px 67.5px rgba(0, 0, 0, 0.039), 0px 0.9px 65.6px rgba(0, 0, 0, 0.041), 0px 1.3px 63.4px rgba(0, 0, 0, 0.043), 0px 1.8px 61.3px rgba(0, 0, 0, 0.043), 0px 2.5px 59.8px rgba(0, 0, 0, 0.043), 0px 3.7px 59px rgba(0, 0, 0, 0.042), 0px 5.6px 59.1px rgba(0, 0, 0, 0.041), 0px 10px 60px rgba(0, 0, 0, 0.04);
+  height: 10vh;
+  background-color: #0a0a0a;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px;
+  border-bottom: 2px solid rgb(161, 9, 9);
+}
+.container header img {
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid rgb(161, 9, 9);
+}
+.container header div.button {
+  display: flex;
+  gap: 20px;
+}
+.container header div.button button {
+  color: white;
+  background-color: transparent;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  border-bottom: 1px solid rgb(161, 9, 9);
+  cursor: pointer;
+  transition: 1s;
+}
+.container header div.button button:hover {
+  color: rgb(161, 9, 9);
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (max-width: 614px) {
+  .container header {
+    height: 20vh;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+.container section.section {
+  height: 90vh;
+  /*background-color: $three-color;*/
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  align-items: flex-start;
+  background-image: url(../image/sla.jpg);
+  background-size: cover;
+}
+.container section.section div.content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  gap: 10px;
+}
+.container section.section div.content div.sideContent {
+  padding-top: 10px;
+}
+.container section.section div.content div.sideContent h1 {
+  color: rgb(161, 9, 9);
+  font-size: 32px;
+}
+.container section.section div.content div.sideContent img {
+  width: 50%;
+}
+.container section.section div.content p span {
+  color: rgb(161, 9, 9);
+  border-bottom: 1px solid white;
+}
+@media (max-width: 614px) {
+  .container section.section {
+    height: 80vh;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+div.container section.section-login {
+  height: 90vh;
+  width: 100vw;
+  background-color: #111111;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  align-items: center;
+  background-image: url(../image/sla.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+div.container section.section-login div.forms-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 25px;
+  width: 40%;
+  min-width: 250px;
+  max-width: 550px;
+  min-height: 550px;
+  max-height: 560px;
+  height: 54vh;
+  opacity: 0.9;
+  background: #F4F6FB;
+  border: 1px solid white;
+  border-radius: 20px;
+  box-shadow: 10px 10px 64px 0px rgb(68, 8, 8);
+  -webkit-box-shadow: 10px 10px 64px 0px rgba(105, 16, 16, 0.664);
+  -moz-box-shadow: 10px 10px 64px 0px rgba(82, 13, 13, 0.75);
+}
+div.container section.section-login div.forms-content form div.img {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+div.container section.section-login div.forms-content form div.img img {
+  width: 150px;
+  background-color: black;
+  border-radius: 50%;
+  border: 2px solid red;
+}
+div.container section.section-login div.forms-content form div.card_header {
+  display: flex;
+  align-items: center;
+}
+div.container section.section-login div.forms-content form div.card_header svg {
+  color: red;
+  margin-bottom: 20px;
+  margin-right: 5px;
+  opacity: 1;
+}
+div.container section.section-login div.forms-content form div.card_header h1.form_heading {
+  padding-bottom: 20px;
+  font-size: 21px;
+  color: red;
+}
+div.container section.section-login div.forms-content form div.card_header img {
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid rgb(161, 9, 9);
+  background-color: black;
+  opacity: 1;
+}
+div.container section.section-login div.forms-content form div.field {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+div.container section.section-login div.forms-content form div.field .input {
+  border-radius: 5px;
+  background-color: white;
+  padding: 5px;
+  width: 100%;
+  color: rgb(161, 9, 9);
+  border: 1px solid rgb(161, 9, 9);
+}
+div.container section.section-login div.forms-content form div.field .input:focus-visible {
+  outline: 1px solid red;
+}
+div.container section.section-login div.forms-content form div.field .input::placeholder {
+  color: red;
+}
+div.container section.section-login div.forms-content form div.field label {
+  padding-top: 20px;
+  color: black;
+  font-size: 14px;
+  display: block;
+  padding-bottom: 4px;
+}
+div.container section.section-login div.forms-content button {
+  height: 60px;
+  width: 100%;
+  background-color: #0a0a0a;
+  margin-top: 10px;
+  font-size: 20px;
+  padding: 7px 12px;
+  font-weight: 500;
+  color: red;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+div.container section.section-login div.forms-content button:hover {
+  background-color: white;
+  border: 1px solid red;
+  text-decoration: underline;
+}
+div.container a {
+  color: #0a0a0a;
+  cursor: pointer;
+  transition: 1s;
+}
+@media (max-width: 748px) {
+  div.container a {
+    font-size: 14px;
+  }
+}
+div.container a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+section.section-registro {
+  height: 90vh;
+  width: 100vw;
+  background-color: #111111;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  align-items: center;
+  background-image: url(../image/sla.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+section.section-registro div.forms-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 25px;
+  width: 40%;
+  min-width: 250px;
+  max-width: 550px;
+  min-height: 600px;
+  max-height: 600px;
+  height: 70vh;
+  opacity: 0.9;
+  background: #F4F6FB;
+  border: 1px solid white;
+  border-radius: 20px;
+  box-shadow: 10px 10px 64px 0px rgb(68, 8, 8);
+  -webkit-box-shadow: 10px 10px 64px 0px rgba(105, 16, 16, 0.664);
+  -moz-box-shadow: 10px 10px 64px 0px rgba(82, 13, 13, 0.75);
+}
+section.section-registro div.forms-content h1 {
+  color: red;
+}
+section.section-registro div.forms-content h2 {
+  font-size: 20px;
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+section.section-registro div.forms-content p {
+  font-size: 15px;
+}
+section.section-registro div.forms-content table {
+  height: 20vh;
+}
+section.section-registro div.forms-content table thead tr {
+  text-align: center;
+}
+section.section-registro div.forms-content table thead tr th {
+  color: red;
+  border: 1px solid red;
+}
+section.section-registro div.forms-content table tbody tr {
+  text-align: center;
+}
+section.section-registro div.forms-content table tbody tr td {
+  font-size: 12px;
+  color: black;
+  border: 1px solid red;
+}
+
+/*# sourceMappingURL=style.css.map */
