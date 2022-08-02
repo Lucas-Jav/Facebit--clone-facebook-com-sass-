@@ -19,7 +19,7 @@ div.container {
         justify-content: space-between;
         padding: 25px;
         width: 40%;
-        min-width: 250px;
+        min-width: 300px;
         max-width: 550px;
         min-height: 550px;
         max-height: 560px;
@@ -31,6 +31,10 @@ div.container {
         box-shadow: 10px 10px 64px 0px rgb(68, 8, 8);
         -webkit-box-shadow: 10px 10px 64px 0px rgba(105, 16, 16, 0.664);
         -moz-box-shadow: 10px 10px 64px 0px rgba(82, 13, 13, 0.75);
+
+        @media (max-width: 1414px) {
+            width: 100%;
+        }
 
     form {
 
