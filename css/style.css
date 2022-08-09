@@ -66,9 +66,9 @@ a {
   height: 100%;
   display: flex;
   flex-direction: column;
+  gap: 20px;
   text-align: center;
   color: white;
-  gap: 10px;
 }
 .container section.section div.content div.sideContent {
   padding-top: 10px;
@@ -92,24 +92,8 @@ a {
   }
 }
 .container section.section p.contentDireitos {
-  margin-top: 30px;
   font-size: 10px;
   text-align: center;
-}
-@media (max-width: 1024px) {
-  .container section.section p.contentDireitos {
-    margin-top: 15%;
-  }
-}
-@media (max-width: 768px) {
-  .container section.section p.contentDireitos {
-    margin-top: 35%;
-  }
-}
-@media (max-width: 425px) {
-  .container section.section p.contentDireitos {
-    margin-top: 70%;
-  }
 }
 
 div.container section.section-login {
