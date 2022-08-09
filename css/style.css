@@ -91,6 +91,26 @@ a {
     flex-direction: column;
   }
 }
+.container section.section p.contentDireitos {
+  margin-top: 30px;
+  font-size: 10px;
+  text-align: center;
+}
+@media (max-width: 1024px) {
+  .container section.section p.contentDireitos {
+    margin-top: 15%;
+  }
+}
+@media (max-width: 768px) {
+  .container section.section p.contentDireitos {
+    margin-top: 35%;
+  }
+}
+@media (max-width: 425px) {
+  .container section.section p.contentDireitos {
+    margin-top: 70%;
+  }
+}
 
 div.container section.section-login {
   height: 90vh;
@@ -98,6 +118,8 @@ div.container section.section-login {
   background-color: #111111;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  gap: 100px;
   padding: 20px;
   align-items: center;
   background-image: url(../image/sla.jpg);
@@ -220,12 +242,20 @@ div.container a:hover {
   color: red;
   text-decoration: underline;
 }
+div.container p.contentDireitos {
+  margin-top: 30px;
+  font-size: 10px;
+  color: white;
+  text-align: center;
+}
 
 section.section-registro {
   height: 90vh;
   width: 100vw;
   background-color: #111111;
   display: flex;
+  flex-direction: column;
+  gap: 30px;
   justify-content: center;
   padding: 20px;
   align-items: center;

@@ -3,6 +3,8 @@ section.section-registro {
     width: 100vw;
     background-color: $three-color;
     display: flex;
+    flex-direction: column;
+    gap: 30px;
     justify-content: center;
     padding: 20px;
     align-items: center;

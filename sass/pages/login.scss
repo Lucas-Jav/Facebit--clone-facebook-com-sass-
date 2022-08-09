@@ -6,6 +6,8 @@ div.container {
     background-color: $three-color;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    gap: 100px;
     padding: 20px;
     align-items: center;
     background-image: url(../image/sla.jpg);
@@ -143,6 +145,12 @@ div.container {
             color: red;
             text-decoration: underline;
         }
+    }
+    p.contentDireitos{
+        margin-top: 30px;
+        font-size: 10px;
+        color: white;
+        text-align: center;
     }
 }
 
